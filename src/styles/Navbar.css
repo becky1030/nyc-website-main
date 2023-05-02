@@ -87,13 +87,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   flex-direction: row;
   position: fixed;
   /* position: fixed: stick to the top when scrolling down */
   top: 30px;
   font-family: la;
-
   margin-bottom: -50px;
   background-color: #fff200;
 }
@@ -119,7 +117,7 @@
 .nav-item {
   display: flex;
   align-items: left;
-  margin-top: 40px;
+  margin-top: 100px;
   /* height: 10vh; */
 }
 
@@ -134,7 +132,7 @@
 }
 .nav-item a:hover {
   background: transparent;
-  margin-bottom: 80px;
+  margin-bottom: 150px;
 
   border-style: solid;
   border-width: 3px;
